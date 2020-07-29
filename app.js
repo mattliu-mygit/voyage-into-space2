@@ -23,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'client', 'build')));
 
 const mongoose = require('mongoose');
 mongoose.connect(
-  'mongodb+srv://matt-liu:Kevin0122@jhu-help.eax6k.mongodb.net/JHU-Help?retryWrites=true&w=majority',
+  'mongodb+srv://Admin:voyage420@voyage-into-space.je1sn.mongodb.net/<dbname>?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
