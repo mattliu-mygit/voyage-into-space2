@@ -47,6 +47,15 @@ function Header() {
               Home
             </NavLink>
             {'|'}
+            <NavLink
+              className="btn btn-primary header-btn first-btn"
+              style={headerButton}
+              activeStyle={activeStyle}
+              to="/leaderboard"
+              exact
+            >
+              Leaderboard
+            </NavLink>
           </div>
         ) : null}
       </nav>

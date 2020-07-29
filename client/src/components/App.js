@@ -5,6 +5,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import NotFoundPAge from './NotFoundPage';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Leaderboard from './Leaderboard';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" exact component={StartPage} />
+        <Route path="/Leaderboard" exact component={Leaderboard} />
         <Redirect from="/about-page" to="/about" />
         <Route component={NotFoundPAge} />
       </Switch>
