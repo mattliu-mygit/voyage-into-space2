@@ -8,58 +8,23 @@ body {
   background-size: cover;
 }
 
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-  margin-top: 1rem;
-  background-color: rgb(63, 124, 236);
-  color: rgb(255, 255, 255);
-  padding: 18px;
-  width: 100%;
+.launch-btn:focus,
+.launch-btn:active,
+.launch-btn.active {
   border: none;
-  text-align: left;
-  font-size: 1rem;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.collapsible:hover {
-  background-color: rgb(124, 191, 236);
-}
-
-/* Style the collapsible content. Note: hidden by default */
-.content {
-  padding: 0 18px;
-  padding-top: 1rem;
-  overflow: hidden;
-  /* background-color: #f1f1f1; */
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  font-size: 1rem;
+  box-shadow: none;
 }
 
 a {
   color: #7df9ff;
 } /* CSS link color (red) */
+
 a:hover {
   color: #ffffff;
 } /* CSS link hover (green) */
 
 .outerCollapsible button {
   color: teal;
-}
-
-.frontPageLink {
-  background-color: whitesmoke;
-  color: rgb(7, 66, 122);
-  border-radius: 12px;
-  margin: 1rem;
-  margin-left: 0rem;
-  margin-bottom: 2.5%;
-  padding: 0.5rem;
-  width: text;
-  display: inline-block;
-}
-.frontPageLink a {
-  color: rgb(7, 66, 122);
 }
 
 .jumbotron {
@@ -122,68 +87,8 @@ a:hover {
   box-shadow: none;
 }
 
-.covid-btn:hover,
-.covid-btn:active,
-.covid-btn.active {
-  color: white;
-  background-color: #7df9ff;
-  border: none; /*set the color you want here*/
-  box-shadow: none;
-}
-
-.covid-btn:focus {
-  border: none; /*set the color you want here*/
-  box-shadow: none;
-}
-
-.search-description {
-  background-color: rgb(14, 103, 185);
-  border-radius: 12px;
-  margin: 1.25%;
-  margin-bottom: 0rem;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-
-.search-prompt {
-  display: inline-block;
-  color: white;
-  margin-left: 1.5rem;
-  font-size: 1.5rem;
-}
-
-.searchbar {
-  display: inline-block;
-  width: 70%;
-  margin: 1rem;
-  margin-left: 1.5rem;
-}
-
-.search-results {
-  margin: 1.25%;
-  margin-top: 0rem;
-}
-
-.search {
-  background-color: rgba(0, 0, 0, 0.4);
-  margin: 2.5%;
-  padding: 0.5rem;
-  border-radius: 1rem;
-  width: 95%;
-  /* min-width: 75rem; */
-  margin-bottom: 0rem;
-}
-
 ::placeholder {
   font-size: 100%;
-}
-
-.survey-table {
-  margin: 2rem;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 1rem;
-  border-radius: 0.5rem;
 }
 
 .table {
@@ -256,17 +161,4 @@ a:hover {
   border-radius: 0px;
   background-color: rgba(7, 66, 122, 0.7);
   border: none;
-}
-
-.covid-content {
-  display: inline-block;
-  width: 70.5%;
-  margin-left: 0rem;
-  margin-top: 1%;
-  border-top-left-radius: 0rem;
-  border-bottom-left-radius: 0rem;
-  margin-right: 2.5%;
-  /* min-width: 35.75rem; */
-  min-width: 35.75rem;
-  position: absolute;
 }

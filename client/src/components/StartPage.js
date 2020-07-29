@@ -42,7 +42,7 @@ function StartPage(props) {
             marginTop: '10rem',
             color: '#F1F4FFFF',
           }}
-          className="btn"
+          className="btn launch-btn"
         >
           <i>Blast Off!</i>
         </Link>
